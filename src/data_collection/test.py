@@ -2,7 +2,7 @@ from streetview import search_panoramas
 from streetview import get_streetview
 from streetview import get_panorama
 panos = search_panoramas(lat = 41.011782, lon = -78.435571)
-first = panos[4].pano_id
+first = panos[-1].pano_id
 second = panos
 '''
 print(first)
